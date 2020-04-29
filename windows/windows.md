@@ -11,5 +11,7 @@
     * Installed in C:\Windows
 
 ## Powershell Commands
-||Command||Description||
+|Command|Description|
+|---|---|
 |`ls -Force`|Show all items in dir, including hidden|
+|`#` + text + Tab|Cycle history matching text search term|
