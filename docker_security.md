@@ -38,5 +38,8 @@
 * Attacker could use this to expose another point of entry into the container e.g. an SSH port mapped to a random port on the host
 * Therefore, should be monitored
 
+## Reports
+* Crowdstrike: https://www.crowdstrike.com/wp-content/uploads/2020/04/container-security-solution-brief.pdf
+
 
 
