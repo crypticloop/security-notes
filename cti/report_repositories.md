@@ -11,3 +11,4 @@
 | paloalto Networks | https://unit42.paloaltonetworks.com/?pg=1#all |
 | Darktrace | https://www.darktrace.com/en/blog/ |
 | Carbon Black |  https://www.carbonblack.com/resources/threat-research/, https://www.carbonblack.com/blog/ |
+| Securelist | https://securelist.com/ |
