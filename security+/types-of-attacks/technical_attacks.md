@@ -30,8 +30,7 @@
     * Session highjacking
     * Content/setting modification
 
-
-## Cross-Site Request Forgery (XSRF)
+## Cross-Site Request Forgery (XSRF)
 https://www.youtube.com/watch?v=vRBihr41JTo
 * Attacker exploits locally stored authentication assets of a user of the target site
 * Attacker infrastructure makes request to target site using authentication assets of some user of that target site who has then visited attacker site

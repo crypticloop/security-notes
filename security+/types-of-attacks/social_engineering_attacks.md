@@ -1,7 +1,6 @@
 # Social Engineering Attacks
 
-
-## Exam Requirements
+## Exam Requirements
 * Understand different attack types
 * Compare and contrast attack types
 
