@@ -6,6 +6,8 @@
 
 ### Authentication
 * 802.11 access points use SSIDs as authentication function
+* SSID is wireless network name
+    * Passed in header of packets between the router and devices on wireless network
 * Only people who know this SSID can connect
 * Issues:
     * Sent over plaintext during handshake so can be sniffed and used by attacker in impersonation
@@ -13,6 +15,16 @@
 * Mitigations:
     * Renaming SSID
     * Disabling SSID broadcast - inconvenient and security through obscurity
+* Communication over wireless networks can be secured by many different protocols (oldest to youngest):
+    * WEP - encryption was vulnerable, insecure
+    * WPA - used dynamically changing encryption called TKIP, still ended up being vulnerable, insecure
+    * WPA2 - Applied AES on top of TKIP, secure but some backwards compatibility issues with devices from before 2006
+        * Routers offer mixed WPA/WPA2 protocol to support this
+        * If all devices used are modern, best to just used WPA2
+    * WPA3 - Released 2018, very secure
+    * WPS - Designed for ease of use, no password
+        * Physical or software buttons pushed on router and device for device to join
+        * Or device pin entered into router software
 
 ### Signal Strength
 * Weak connections can drop data packets
@@ -22,8 +34,8 @@
 
 ### Band/Bandwidth
 * Wifi operates at two different frequencies:
-    * 802.11b, g, n - 2.4GHz
-    * 802.11a, n, ac - 5GHz
+    * 2.4GHz - supported by 802.11b, g, n
+    * 5GHz - supported by 802.11a, n, ac 
 * Radio access points used to resolve conflicts for new environments
 
 ### Antenna Type and Placement
